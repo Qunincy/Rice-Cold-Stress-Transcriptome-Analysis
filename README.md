@@ -19,7 +19,7 @@ This repository stores reproducible R scripts for RNA-seq analysis of rice cold-
 ├── visualization/                # Plotting scripts
 │   ├── pheatmap.R               # Heatmap for DEG expression (row-wise Z-score normalization)
 │   └── volcano_plot.R           # Volcano plot for differentially expressed genes
-├── DESeq2.R                      # Main workflow entry
+├── pipline/full_rnaseq_workflow.R    # All-in-one end-to-end RNA-seq analysis script 
 └── README.md
 ```
 
