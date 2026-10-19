@@ -33,6 +33,8 @@ This repository stores reproducible R scripts for RNA-seq analysis of rice cold-
    - Strategy 2: Fallback to Biomart REST API via `httr2` when biomaRt connection fails.
 4. **Functional enrichment**: Batch GO / KEGG enrichment for all comparison groups, simplify GO terms, export tables and PDF dotplots.
 5. **Visualization**: Volcano plots for DEGs, heatmap of normalized expression of significant genes.
+6. **full_rnaseq_workflow.R**:integrates the complete pipeline, including raw count filtering, DESeq2 differential expression, TPM normalization, DEG heatmap, K-means expression clustering, GO enrichment and marker gene visualization. This script combines the functions of diff_expression, annotation_enrichment and visualization modules.
+
 
 ## Dependencies
 
